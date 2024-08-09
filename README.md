@@ -8,3 +8,7 @@ Controls:
   * BRUT: arrow keys for movement, A for dash, S for kick, D for throw. Kick an enemy then throw them into another to deal damage and eliminate them. Big enemies cannot be kicked.
   * HARD: WASD or arrow keys for movement, spacebar or up arrow to jump. Use mouse to aim and click to shoot the rocket launcher. Shoot the ground near enemies to make them fly into the air and shoot them again mid air to eliminate them, you can only damage enemies mid air.
   * For both games, medkits replenish 1 health point, current health is shown on the hud where it says "Salud"
+
+
+Concept art for HARD
+![dikhotomia concept](https://github.com/user-attachments/assets/c88685c5-cd88-4fce-bdfa-3e2190d21801)
