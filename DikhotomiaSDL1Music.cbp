@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="DikhotomiaSDL" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/DikhotomiaSDL" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="E:/Docs/Programming stuff/SDL_image-1.2.12/include" />
+					<Add directory="E:/Docs/Programming stuff/SDL-1.2.15/include/SDL" />
+				</Compiler>
+				<Linker>
+					<Add option="-lmingw32 -lSDLmain -lSDL -lSDL_image -lSDL_ttf -lSDL_mixer" />
+					<Add directory="E:/Docs/Programming stuff/SDL-1.2.15/lib" />
+					<Add directory="E:/Docs/Programming stuff/SDL_image-1.2.12/lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/DikhotomiaSDL" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="claseenemigobrut.h" />
+		<Unit filename="claseenemigograndebrut.h" />
+		<Unit filename="claseenemigohard.h" />
+		<Unit filename="clasejugadorbrut.h" />
+		<Unit filename="clasejugadorhard.h" />
+		<Unit filename="claseobjeto.h" />
+		<Unit filename="claseranking.h" />
+		<Unit filename="claserocket.h" />
+		<Unit filename="clases.h" />
+		<Unit filename="clasetimer.h" />
+		<Unit filename="funciones.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="varglob.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

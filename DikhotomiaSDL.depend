@@ -1,0 +1,806 @@
+# depslib dependency file v1.0
+1499214094 source:c:\users\gabi\desktop\docs\c++\dikhotomiasdl\main.cpp
+	<cstdlib>
+	<SDL.h>
+	<SDL_ttf.h>
+	<SDL_image.h>
+	<cstring>
+	<cstdio>
+	<math.h>
+	<iostream>
+	"varglob.h"
+	"claseranking.h"
+	"claseobjeto.h"
+	"clasejugadorbrut.h"
+	"clasejugadorhard.h"
+	"claseenemigobrut.h"
+	"claseenemigograndebrut.h"
+	"claseenemigohard.h"
+	"claserocket.h"
+	"clasetimer.h"
+	"funciones.h"
+
+1325738639 c:\users\gabi\desktop\docs\programming stuff\sdl-1.2.15\include\sdl\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\users\gabi\desktop\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\users\gabi\desktop\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1326110987 c:\users\gabi\desktop\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_config.h
+	"SDL_platform.h"
+	"SDL_config_dreamcast.h"
+	"SDL_config_macos.h"
+	"SDL_config_macosx.h"
+	"SDL_config_symbian.h"
+	"SDL_config_win32.h"
+	"SDL_config_os2.h"
+	"SDL_config_minimal.h"
+
+1325738639 c:\users\gabi\desktop\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_platform.h
+
+1326110994 c:\users\gabi\desktop\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_config_win32.h
+	"SDL_platform.h"
+
+1326111000 c:\users\gabi\desktop\docs\programming stuff\sdl-1.2.15\include\sdl\begin_code.h
+
+1325738639 c:\users\gabi\desktop\docs\programming stuff\sdl-1.2.15\include\sdl\close_code.h
+
+1325738639 c:\users\gabi\desktop\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\users\gabi\desktop\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\users\gabi\desktop\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\users\gabi\desktop\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\users\gabi\desktop\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1325738639 c:\users\gabi\desktop\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\users\gabi\desktop\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\users\gabi\desktop\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\users\gabi\desktop\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\users\gabi\desktop\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\users\gabi\desktop\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\users\gabi\desktop\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_keysym.h
+
+1325738639 c:\users\gabi\desktop\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\users\gabi\desktop\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\users\gabi\desktop\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\users\gabi\desktop\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1325738639 c:\users\gabi\desktop\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\users\gabi\desktop\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\users\gabi\desktop\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325803234 c:\users\gabi\desktop\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325807594 c:\users\gabi\desktop\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1500304072 c:\users\gabi\desktop\docs\c++\dikhotomiasdl\varglob.h
+
+1498262976 c:\users\gabi\desktop\docs\c++\dikhotomiasdl\clases.h
+
+1500526540 c:\users\gabi\desktop\docs\c++\dikhotomiasdl\funciones.h
+
+1325803740 c:\users\gabi\desktop\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_mixer.h
+	"SDL_types.h"
+	"SDL_rwops.h"
+	"SDL_audio.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\users\gabi\desktop\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_types.h
+	"SDL_stdinc.h"
+
+1500524609 c:\users\gabi\desktop\docs\c++\dikhotomiasdl\claseobjeto.h
+
+1498428338 c:\users\gabi\desktop\docs\c++\dikhotomiasdl\clasejugador.h
+
+1498428253 c:\users\gabi\desktop\docs\c++\dikhotomiasdl\claseenemigo.h
+
+1499262524 c:\users\gabi\desktop\docs\c++\dikhotomiasdl\clasetimer.h
+
+1500487966 c:\users\gabi\desktop\docs\c++\dikhotomiasdl\clasejugadorbrut.h
+
+1499262524 c:\users\gabi\desktop\docs\c++\dikhotomiasdl\claseenemigobrut.h
+
+1500524607 c:\users\gabi\desktop\docs\c++\dikhotomiasdl\clasejugadorhard.h
+
+1500526450 c:\users\gabi\desktop\docs\c++\dikhotomiasdl\claseenemigohard.h
+
+1500524611 c:\users\gabi\desktop\docs\c++\dikhotomiasdl\claserocket.h
+
+1500517572 c:\users\gabi\desktop\docs\c++\dikhotomiasdl\claseranking.h
+
+1499299346 c:\users\gabi\desktop\docs\c++\dikhotomiasdl\claseenemigograndebrut.h
+
+1500855352 source:e:\docs\dikhotomiasdl\main.cpp
+	<cstdlib>
+	<SDL.h>
+	<SDL_ttf.h>
+	<SDL_image.h>
+	<cstring>
+	<cstdio>
+	<math.h>
+	<iostream>
+	"varglob.h"
+	"claseranking.h"
+	"claseobjeto.h"
+	"clasejugadorbrut.h"
+	"clasejugadorhard.h"
+	"claseenemigobrut.h"
+	"claseenemigograndebrut.h"
+	"claseenemigohard.h"
+	"claserocket.h"
+	"clasetimer.h"
+	"funciones.h"
+
+1500304072 e:\docs\dikhotomiasdl\varglob.h
+
+1500517574 e:\docs\dikhotomiasdl\claseranking.h
+
+1501096774 e:\docs\dikhotomiasdl\claseobjeto.h
+
+1500487966 e:\docs\dikhotomiasdl\clasejugadorbrut.h
+
+1501096772 e:\docs\dikhotomiasdl\clasejugadorhard.h
+
+1499262524 e:\docs\dikhotomiasdl\claseenemigobrut.h
+
+1499299346 e:\docs\dikhotomiasdl\claseenemigograndebrut.h
+
+1501115686 e:\docs\dikhotomiasdl\claseenemigohard.h
+
+1500524612 e:\docs\dikhotomiasdl\claserocket.h
+
+1499262524 e:\docs\dikhotomiasdl\clasetimer.h
+
+1501116316 e:\docs\dikhotomiasdl\funciones.h
+
+1325738640 e:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 e:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 e:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1326110988 e:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_config.h
+	"SDL_platform.h"
+	"SDL_config_dreamcast.h"
+	"SDL_config_macos.h"
+	"SDL_config_macosx.h"
+	"SDL_config_symbian.h"
+	"SDL_config_win32.h"
+	"SDL_config_os2.h"
+	"SDL_config_minimal.h"
+
+1325738640 e:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_platform.h
+
+1326110994 e:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_config_win32.h
+	"SDL_platform.h"
+
+1326111000 e:\docs\programming stuff\sdl-1.2.15\include\sdl\begin_code.h
+
+1325738640 e:\docs\programming stuff\sdl-1.2.15\include\sdl\close_code.h
+
+1325738640 e:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 e:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 e:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 e:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 e:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1325738640 e:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 e:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 e:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 e:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 e:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 e:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 e:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_keysym.h
+
+1325738640 e:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 e:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 e:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 e:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1325738640 e:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 e:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 e:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325807594 e:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325803234 e:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1500855352 source:d:\docs\dikhotomiasdl\main.cpp
+	<cstdlib>
+	<SDL.h>
+	<SDL_ttf.h>
+	<SDL_image.h>
+	<cstring>
+	<cstdio>
+	<math.h>
+	<iostream>
+	"varglob.h"
+	"claseranking.h"
+	"claseobjeto.h"
+	"clasejugadorbrut.h"
+	"clasejugadorhard.h"
+	"claseenemigobrut.h"
+	"claseenemigograndebrut.h"
+	"claseenemigohard.h"
+	"claserocket.h"
+	"clasetimer.h"
+	"funciones.h"
+
+1500304072 d:\docs\dikhotomiasdl\varglob.h
+
+1500517574 d:\docs\dikhotomiasdl\claseranking.h
+
+1501096774 d:\docs\dikhotomiasdl\claseobjeto.h
+
+1500487966 d:\docs\dikhotomiasdl\clasejugadorbrut.h
+
+1501156492 d:\docs\dikhotomiasdl\clasejugadorhard.h
+
+1499262524 d:\docs\dikhotomiasdl\claseenemigobrut.h
+
+1499299346 d:\docs\dikhotomiasdl\claseenemigograndebrut.h
+
+1501157914 d:\docs\dikhotomiasdl\claseenemigohard.h
+
+1500524612 d:\docs\dikhotomiasdl\claserocket.h
+
+1499262524 d:\docs\dikhotomiasdl\clasetimer.h
+
+1501158324 d:\docs\dikhotomiasdl\funciones.h
+
+1325738640 d:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 d:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 d:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1326110988 d:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_config.h
+	"SDL_platform.h"
+	"SDL_config_dreamcast.h"
+	"SDL_config_macos.h"
+	"SDL_config_macosx.h"
+	"SDL_config_symbian.h"
+	"SDL_config_win32.h"
+	"SDL_config_os2.h"
+	"SDL_config_minimal.h"
+
+1325738640 d:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_platform.h
+
+1326110994 d:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_config_win32.h
+	"SDL_platform.h"
+
+1326111000 d:\docs\programming stuff\sdl-1.2.15\include\sdl\begin_code.h
+
+1325738640 d:\docs\programming stuff\sdl-1.2.15\include\sdl\close_code.h
+
+1325738640 d:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 d:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 d:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 d:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 d:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1325738640 d:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 d:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 d:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 d:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 d:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 d:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 d:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_keysym.h
+
+1325738640 d:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 d:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 d:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 d:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1325738640 d:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 d:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 d:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325807594 d:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325803234 d:\docs\programming stuff\sdl-1.2.15\include\sdl\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325803234 e:\docs\programming stuff\sdl_image-1.2.12\include\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325803234 d:\docs\programming stuff\sdl_image-1.2.12\include\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1500855352 source:c:\users\gabi\desktop\dikhotomia v1.0\dikhotomiasdl\main.cpp
+	<cstdlib>
+	<SDL.h>
+	<SDL_ttf.h>
+	<SDL_image.h>
+	<cstring>
+	<cstdio>
+	<math.h>
+	<iostream>
+	"varglob.h"
+	"claseranking.h"
+	"claseobjeto.h"
+	"clasejugadorbrut.h"
+	"clasejugadorhard.h"
+	"claseenemigobrut.h"
+	"claseenemigograndebrut.h"
+	"claseenemigohard.h"
+	"claserocket.h"
+	"clasetimer.h"
+	"funciones.h"
+
+1500304072 c:\users\gabi\desktop\dikhotomia v1.0\dikhotomiasdl\varglob.h
+
+1500517574 c:\users\gabi\desktop\dikhotomia v1.0\dikhotomiasdl\claseranking.h
+
+1501096774 c:\users\gabi\desktop\dikhotomia v1.0\dikhotomiasdl\claseobjeto.h
+
+1500487966 c:\users\gabi\desktop\dikhotomia v1.0\dikhotomiasdl\clasejugadorbrut.h
+
+1501156492 c:\users\gabi\desktop\dikhotomia v1.0\dikhotomiasdl\clasejugadorhard.h
+
+1499262524 c:\users\gabi\desktop\dikhotomia v1.0\dikhotomiasdl\claseenemigobrut.h
+
+1499299346 c:\users\gabi\desktop\dikhotomia v1.0\dikhotomiasdl\claseenemigograndebrut.h
+
+1501157914 c:\users\gabi\desktop\dikhotomia v1.0\dikhotomiasdl\claseenemigohard.h
+
+1500524612 c:\users\gabi\desktop\dikhotomia v1.0\dikhotomiasdl\claserocket.h
+
+1499262524 c:\users\gabi\desktop\dikhotomia v1.0\dikhotomiasdl\clasetimer.h
+
+1501158324 c:\users\gabi\desktop\dikhotomia v1.0\dikhotomiasdl\funciones.h
+
